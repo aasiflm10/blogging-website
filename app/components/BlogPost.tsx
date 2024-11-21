@@ -9,7 +9,7 @@ export function BlogPost(){
         <div className="flex space-x-4 ">
             <div className="p-2 bg-lime-200 text-black rounded-lg">Design</div>
             <div className="p-2 bg-red-200 text-black rounded-lg">Research</div>
-            <div className="p-2 bg-purple-200 text-black rounded-lg">Presentation</div>
+            <div className="p-2     bg-purple-200 text-black rounded-lg">Presentation</div>
         </div>
     </div>
 }

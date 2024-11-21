@@ -5,7 +5,7 @@ import { RecentBlogPosts } from "./components/RecentBlogPosts";
 
 export default function Home() {
   return (
-    <div className="space-y-2">
+    <div className="space-y-5">
       <TopBar name="Aasif"/>
       <TheBlogComponent/>
       <RecentBlogPosts/>
