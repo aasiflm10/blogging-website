@@ -14,7 +14,7 @@ export function TopBar({ name }: { name: string }) {
   }
 
   return (
-    <div className="p-5 text-xl  flex justify-between">
+    <div className="px-5 pt-5 md:py-5 text-xl  flex justify-between">
       <div className="p-2 font-bold">{name}</div>
       <div className="hidden md:flex space-x-4">
         <button className="p-2">Blog</button>
