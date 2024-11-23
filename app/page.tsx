@@ -6,7 +6,7 @@ import { PageNumberComponent } from "./components/PageNumber";
 
 export default function Home() {
   return (
-    <div className="space-y-5 lg:mx-28">
+    <div className="space-y-8 lg:mx-28">
       <TopBar name="Aasif"/>
       <TheBlogComponent/>
       <RecentBlogPosts/>
