@@ -1,19 +1,26 @@
 import { BlogPost } from "./BlogPost";
 import { LgBlogPost } from "./LgBlogPost";
-
+import {Test} from "./Test"
+import { Test2 } from "./Test2";
 export function FirstComponent() {
   return (
-    <div className="p-8">
-      <h5>Recent blog posts</h5>
-      <div className="lg:flex lg:flex-row lg:space-x-8">
-        <div className="w-full lg:flex-1 bg-red-400">
-          <BlogPost />
-        </div>
-        <div className="w-full lg:flex-1 bg-green-400 space-y-8">
-          <LgBlogPost/>
-          <LgBlogPost/>
+    <div className="px-8 py-[30px]">
+      <div className="space-y-8">
+        <h5 className="text-2xl font-bold">Recent blog posts</h5>
+        <div className="grid grid-cols-12 gap-8">
+          <div className="col-span-12 lg:col-span-6">
+            <Test/>
+          </div>
+          <div className="col-span-12 lg:col-span-6 space-y-8">
+            <Test2/>
+            <Test2/>
+          </div>
         </div>
       </div>
+
+      <div></div>
+
+      <div></div>
     </div>
   );
 }
