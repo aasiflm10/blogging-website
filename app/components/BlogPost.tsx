@@ -1,4 +1,3 @@
-import Image from "next/image";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 
 export function BlogPost() {

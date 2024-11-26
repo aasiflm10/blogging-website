@@ -1,5 +1,3 @@
-import Image from "next/image";
-import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 
 export function LgBlogPost() {
   return (
@@ -15,7 +13,7 @@ export function LgBlogPost() {
             <h4 className="font-bold">Migrating to Linear 101</h4>
             <p>
               Linear helps streamline software projects sprints tasks and bug
-              tracking. Here's how to get...
+              tracking. Here&apos;s how to get...
             </p>
           </div>
         </div>
