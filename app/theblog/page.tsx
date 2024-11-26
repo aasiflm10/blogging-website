@@ -1,4 +1,6 @@
 import { FirstComponent } from "../components/FirstComponent";
+import { Footer } from "../components/Footer";
+import { PageNumberComponent } from "../components/PageNumber";
 import { TheBlogComponent } from "../components/TheBlog";
 import { TopBar } from "../components/Topbar";
 
@@ -8,6 +10,8 @@ export default function Home() {
         <TopBar name="Aasif"/>
         <TheBlogComponent/>
         <FirstComponent/>
+        <PageNumberComponent/>
+        <Footer/>
     </div>
   );
 }
