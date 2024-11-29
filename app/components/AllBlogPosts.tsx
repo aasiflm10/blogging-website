@@ -53,7 +53,7 @@ export function AllBlogPosts() {
       <h1 className="text-2xl font-bold">All blog posts</h1>
       <div className="grid md:grid-cols-12 gap-8">
         {blogPosts.map((blog) => (
-          <div className="md:col-span-6 lg:col-span-4"><Test/></div>
+          <div key={blog.id} className="md:col-span-6 lg:col-span-4"><Test className="h-[240px]"/></div>
         ))}
       </div>
     </div>

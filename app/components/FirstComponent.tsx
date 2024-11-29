@@ -9,7 +9,7 @@ export function FirstComponent() {
         <h5 className="text-2xl font-bold">Recent blog posts</h5>
         <div className="grid grid-cols-12 gap-8">
           <div className="col-span-12 lg:col-span-6">
-            <Test/>
+            <Test className="h-[228px]"/>
           </div>
           <div className="col-span-12 lg:col-span-6 space-y-8">
             <Test2/>
@@ -19,7 +19,7 @@ export function FirstComponent() {
       </div>
 
       <div className="pt-[30px]">
-        <Test/>
+        <Test className="h-[246px]"/>
       </div>
 
       <AllBlogPosts/>

@@ -1,15 +1,22 @@
+import { StringDecoder } from "string_decoder";
 import { Categories } from "./Categories";
+import {twMerge} from "tailwind-merge"
 
-export function Test() {
+type ImageProps = React.ImgHTMLAttributes<HTMLImageElement>;
+
+export function Test({ className}: { className : string }) {
+  
   return (
     <div className="space-y-6">
       <img
         src={"https://image.tmdb.org/t/p/w780/bvYjhsbxOBwpm8xLE5BhdA3a8CZ.jpg"}
-        className="w-full h-[228px] object-cover"
+        className={twMerge(`w-full object-cover`, className)} 
       />
       <div className="space-y-6">
         <div className="space-y-3">
-          <h1 className="text-purple-700 font-bold text-sm">Sunday 1 Jan 2023</h1>
+          <h1 className="text-purple-700 font-bold text-sm">
+            Sunday 1 Jan 2023
+          </h1>
           <h3 className="text-2xl font-bold">UX review Presentations</h3>
           <p className="text-base">
             How do you create compelling presentations that wow your colleagues
