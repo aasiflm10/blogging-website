@@ -1,16 +1,17 @@
 import { TopBar } from "./components/Topbar";
 import { TheHeroComponent } from "./components/TheHero";
-import { RecentBlogPosts } from "./components/RecentBlogPosts";
 import { Footer } from "./components/Footer";
 import { PageNumberComponent } from "./components/PageNumber";
+import { FirstComponent } from "./components/FirstComponent";
 
 export default function Home() {
   return (
-    <div className="md:space-y-8 space-y-5 lg:mx-28">
+    <div className="space-y-5 md:space-y-8 lg:mx-28">
       <TopBar name="Aasif" />
       <TheHeroComponent name="THE BLOG" />
-      <RecentBlogPosts />
+      <FirstComponent />
       <PageNumberComponent />
+      
       <Footer />
     </div>
   );
