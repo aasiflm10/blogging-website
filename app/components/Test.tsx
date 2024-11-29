@@ -2,8 +2,6 @@ import { StringDecoder } from "string_decoder";
 import { Categories } from "./Categories";
 import {twMerge} from "tailwind-merge"
 
-type ImageProps = React.ImgHTMLAttributes<HTMLImageElement>;
-
 export function Test({ className}: { className : string }) {
   
   return (
