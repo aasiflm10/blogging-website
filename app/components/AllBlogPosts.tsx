@@ -1,12 +1,12 @@
 import { Test } from "./Test";
 
-interface Blog {
-  image: string;
-  text: string;
-  title: string;
-  date: string;
-  categories: string[];
-}
+// interface Blog {
+//   image: string;
+//   text: string;
+//   title: string;
+//   date: string;
+//   categories: string[];
+// }
 
 type BlogPost = {
   id: number;

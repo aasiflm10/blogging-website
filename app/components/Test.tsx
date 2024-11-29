@@ -1,18 +1,16 @@
-import { StringDecoder } from "string_decoder";
 import { Categories } from "./Categories";
-import {twMerge} from "tailwind-merge"
+import { twMerge } from "tailwind-merge";
 
-export function Test({ className}: { className : string }) {
-  
+export function Test({ className }: { className: string }) {
   return (
     <div className="space-y-6">
       <img
         src={"https://image.tmdb.org/t/p/w780/bvYjhsbxOBwpm8xLE5BhdA3a8CZ.jpg"}
-        className={twMerge(`w-full object-cover`, className)} 
+        className={twMerge(`w-full object-cover`, className)}
       />
       <div className="space-y-6">
         <div className="space-y-3">
-          <h1 className="text-purple-700 font-bold text-sm">
+          <h1 className="text-sm font-bold text-purple-700">
             Sunday 1 Jan 2023
           </h1>
           <h3 className="text-2xl font-bold">UX review Presentations</h3>
