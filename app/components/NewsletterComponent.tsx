@@ -1,4 +1,5 @@
 import EmailAndSubs from "./EmailAndSubs";
+import { Footer } from "./Footer";
 
 export function NewsletterComponent() {
   return (
@@ -23,7 +24,7 @@ export function NewsletterComponent() {
         </div>
       </div>
       <EmailAndSubs />
-      <div></div>
+      <Footer/>
     </div>
   );
 }
