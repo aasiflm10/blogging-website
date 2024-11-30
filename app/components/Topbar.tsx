@@ -4,7 +4,6 @@ import { useState } from "react";
 import CloseIcon from "@mui/icons-material/Close";
 import NightlightRoundIcon from "@mui/icons-material/NightlightRound";
 import LightModeIcon from "@mui/icons-material/LightMode";
-import Router from "next/router";
 import Link from "next/link";
 export function TopBar({ name }: { name: string }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
