@@ -1,3 +1,7 @@
-export function Categories({CategoryName}:{CategoryName : string}) {
-  return <div className=" place-content-center py-[2px]  px-2 h-6 bg-lime-200  text-black rounded-lg">{CategoryName}</div>;
+export function Categories({ CategoryName }: { CategoryName: string }) {
+  return (
+    <div className="h-6 place-content-center rounded-lg text-sm bg-lime-200 px-2 py-[2px] text-black">
+      {CategoryName}
+    </div>
+  );
 }
