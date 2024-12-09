@@ -5,10 +5,10 @@ import { TopBar } from "../components/Topbar";
 
 export default function About() {
   return (
-    <div>
+    <div className="space-y-5 md:space-y-8 lg:mx-28">
       <TopBar name="Aasif" />
       <TheHeroComponent name="Aasif Ali" />
-      <div className="py-8 md:px-[112px]">
+      <div className="px-8 py-8 md:px-[112px]">
         <div className="space-y-8">
           <img
             className="h-[556px] w-full object-cover"

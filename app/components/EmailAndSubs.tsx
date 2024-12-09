@@ -3,16 +3,18 @@ import { Test } from "./Test";
 export default function EmailAndSubs() {
   return (
     <div className="">
-      <div className="space-x-2 space-y-2 md:flex md:justify-center">
-        <div className="flex justify-center">
+      <div className="space-x-2  md:flex md:justify-center">
+        <div className="flex justify-center items-center">
           <div>
             <input
-              className="w-[360px] rounded-md px-2 py-1"
+              className="w-[360px] h-[40px] rounded-md px-2 py-1 border"
               placeholder="Enter your Email"
             />
+            <div className="flex justify-center">
             <p className="p-1 text-sm">
               We care about your data in out privacy policy
             </p>
+            </div>
           </div>
         </div>
         <div className="flex justify-center">
