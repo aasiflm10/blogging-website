@@ -10,11 +10,11 @@ export function Footer() {
         </div>
         <p>2023</p>
       </div>
-      <button className="text-xl">Twitter</button>
-      <button className="text-xl">LinkedIn</button>
-      <button className="text-xl">Email</button>
-      <button className="text-xl">feed</button>
-      <button className="text-xl">Add to Feedly</button>
+      <a href="https://x.com/Aasif_1007" className="text-xl">Twitter</a>
+      <a href="https://www.linkedin.com/in/aasif-ali-a58638229/" className="text-xl">LinkedIn</a>
+      <a href="mailto:aa6125405@gmail.com" className="text-xl">Email</a>
+      <a href="" className="text-xl">feed</a>
+      <a href="" className="text-xl">Add to Feedly</a>
     </div>
   );
 }
